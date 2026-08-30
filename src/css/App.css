@@ -1,0 +1,27 @@
+/* =========================
+   APPLICATION LAYOUT
+   ========================= */
+
+.app-layout {
+    min-height: 100vh;
+}
+
+.main-content {
+    margin-left: 260px;
+    width: calc(100% - 260px);
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content {
+    flex: 1;
+}
+
+@media (max-width: 900px) {
+    .main-content {
+        margin-left: 78px;
+        width: calc(100% - 78px);
+    }
+}

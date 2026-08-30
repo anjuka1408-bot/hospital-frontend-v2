@@ -1,0 +1,20 @@
+.footer {
+    text-align: center;
+    padding: 22px 20px;
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    color: var(--text-soft);
+}
+
+.footer p {
+    margin: 3px 0;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.footer p:first-child svg {
+    color: var(--danger);
+}
