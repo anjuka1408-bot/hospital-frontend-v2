@@ -387,7 +387,7 @@ function Home() {
                     <FaMapMarkerAlt />
                     <div>
                         <span>Location</span>
-                        <strong>Sinnar, Maharashtra</strong>
+                        <strong>Nanded, Maharashtra</strong>
                     </div>
                 </div>
 
