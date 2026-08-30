@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const REST_API_BASE_URL = "http://localhost:8080/appointments";
+const REST_API_BASE_URL = "https://hospital-backend-8jz6.onrender.com/appointments";
 
 export const getAllAppointments = () =>
     axios.get(REST_API_BASE_URL);

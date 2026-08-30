@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const AUTH_BASE_URL = "http://localhost:8080/auth";
+const AUTH_BASE_URL = "https://hospital-backend-8jz6.onrender.com/auth";
 
 export function login(username, password) {
     return axios.post(`${AUTH_BASE_URL}/login`, { username, password });

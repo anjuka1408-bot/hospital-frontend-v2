@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://localhost:8080/patients";
+const BASE_URL = "https://hospital-backend-8jz6.onrender.com/patients";
 
 export const getAllPatients = () => {
     return axios.get(BASE_URL);
